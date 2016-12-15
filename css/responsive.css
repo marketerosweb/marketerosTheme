@@ -286,4 +286,8 @@ z-index: 999999;}
 div.proyect-descrip-web.proy-code::before, div.proyect-descrip-web.proy-shop::before, div.proyect-descrip-web.proy-movi::before  {
   display: none;
   }
+
+  a.btn-proy-web.wow.fadeIn {
+    display: none;
+}
 }
