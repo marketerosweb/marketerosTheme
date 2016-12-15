@@ -690,7 +690,7 @@ nav.menu-principal div.main-nav div.menu-menu-principal-container ul.menu li.btn
     z-index: -2; 
 }
 
-.top-web .spattern, .top-dg .spattern, .top-apps .spattern, .top-hosting .spattern, .top-redes .spattern, .top-seo .spattern, .top-proyectos .spattern, .top-nosotros .spattern{
+.top-web .spattern, .top-dg .spattern, .top-apps .spattern, .top-hosting .spattern, .top-redes .spattern, .top-seo .spattern, .top-proyectos .spattern, .top-nosotros .spattern, {
     background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/spattern.png);
     width: 100%;
     height: 100%;
@@ -2998,16 +2998,137 @@ p.p-seo-der-3::before{
     text-align: right;
     padding: 8px 20px;
 }
-
-
 .optimizacion-seo-new{
     background: rgba(255, 255, 255, 0.8);
-    padding: 40px;
+    padding: 50px 40px;
     margin-top: 70px;
+    margin-bottom: 140px;
 }
 .optimizacion-seo-new h1{
     font-size: 1.427em;
-    color: #333;
+    color: #3d322d;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.optimizacion-seo-new {
+    line-height: 29px;
+}
+.barra-amarilla{
+    background: #ffd347;
+    -webkit-box-shadow: 2px 2px 12px 3px rgba(0,0,0,.3);
+    box-shadow: 2px 2px 12px 3px rgba(0,0,0,.3);
+    padding: 45px 0;
+    position: relative;
+    height: 216px;
+}
+.barra-amarilla::after{
+    position: absolute;
+    content: "";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/barra-seo.png);
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    top: -230px;
+    left: 0;
+} 
+/*.barra-amarilla::before{
+    position: absolute;
+    content: "";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/barra-seo-2.png);
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+    top: 216px;
+    left: 0;
+} */
+.bombillo{
+    height: 314px;
+    margin: 0 auto;
+    position: absolute;
+    width: 233px;
+    top: -94px;
+    z-index: 2;
+    
+}
+.textos-seo{
+    text-align: center;
+}
+span.seo-txt-1{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+span.seo-txt-2{
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+}
+span.seo-txt-3{
+    font-size: 37px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+}
+.lista-seo ul{
+    list-style: none;
+}
+.lista-seo ul li{
+    position: relative;
+}
+.lista-seo ul li::before{
+    content: "";
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4396px -16px;
+    width: 28px;
+    height: 28px;
+    top: -2px;
+    left: -30px;
+}
+.estra-seo{
+    background: #019bb5 url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/estrategia-seo.png) center right no-repeat;
+    padding: 90px 0 120px 0;
+    overflow: hidden;
+}
+.caja-blanca{
+    background: #fff;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top:-90px;
+    left: -80px;
+    -moz-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    -o-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+.estra-seo h3{
+    font-size: 1.427em;
+    font-weight: 300;
+}
+.estra-seo h3 span{
+    font-weight: 600;
+}
+.estra-seo p{
+    font-size: 1.094em;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-top: 50px;
+}
+.codigo-seo{
+    padding: 0px 0;
+    position: relative;
+}
+.codigo-seo .spattern{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/spattern.png);
+    height: 100%;
+    position: absolute;
+    width: 100%;
 }
 /*=====================================================================================
 ================================== APPS ===============================================
