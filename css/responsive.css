@@ -52,6 +52,131 @@ header {
 	left: 34px !important;
 	top: -17px;
 }
+.ppc-1::before {
+  display: none;
+}
+.ppc-contents::before, .ppc-4::before{
+  display: none;
+}
+.ppc-content {
+  margin-bottom: 60px;
+  margin-left: 10px !important;
+  width: 100%;
+}
+.ppc-2::before{
+  display: none;
+}
+.ppc-3::before{
+  display: none;
+}
+.sem-bola {
+  background: #e4993b none repeat scroll 0 0;
+  border-radius: 0 !important;
+  height: 740px;
+  left: 0;
+  position: absolute;
+  top: -50px;
+  width: 100% !important;
+}
+.sem-bola::before{
+  display: none;
+}
+.tabs-seo div.tab-content p {
+  background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+  font-size: 1.125em;
+  line-height: 1.625em;
+  text-align: right;
+}
+/* */
+.tabs-seo ul.nav-tabs {
+  float: left !important;
+  text-align: center;
+  width: 100% !important;
+}
+
+/* */
+
+
+.proceso .tabs-seo div.tab-content .seo-asesoria {
+  display: none;
+}
+.nav.nav-tabs {
+  width: 100% !important;
+}
+
+.proceso .tabs-seo div.tab-content .info-tab-2 {
+    float: left;
+    padding: 28px 28px 0 28px;
+    position: relative !important;
+    width: 100% !important;
+    right: 0;
+    margin-right: 0% !important;
+    height: 100%;
+}
+
+.proceso .tabs-seo div.tab-content .seo-identificacion {
+  display: none;
+}
+
+.home-pie.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-107 {
+  display: none;
+}
+
+.proceso .tabs-seo div.tab-content .seo-optimizacion {
+  display: none;
+}
+.proceso .tabs-seo div.tab-content .seo-creacion {
+  display: none;
+}
+.proceso .tabs-seo div.tab-content .seo-analisis {
+  display: none;
+}
+
+.proceso .tabs-seo div.tab-content .seo-incremento {
+  display: none;
+}
+table.tabla-dominios td {
+  display: block;
+  width: 100% !important;
+}
+
+.tabla-precio {
+ margin-bottom: 82px !important;
+}
+.buscar-dominio input.search-domain {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 4px 0 0 4px;
+  font-weight: 300;
+  height: 30px;
+  margin: 0;
+  padding-left: 8px;
+  width: 63% !important;
+}
+.buscar-dominio select {
+  width: 19% !important;
+}
+.slide-apps-apps {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/apps-img.png") no-repeat scroll center top;
+  box-sizing: border-box;
+  height: 430px;
+  margin-left: 0;
+  margin-top: 72px;
+  padding-top: 54px;
+  position: relative !important;
+  width: 100%;
+  z-index: 100;
+}
+.caja-blanca {
+display: none !important;
+}
+.barra-amarilla {
+    background: #ffd347 !important;
+    height: 601px !important;
+}
+.top-bar ul li a {
+  font-size: 0.65em !important;
+}
 .text-line-home h4.res::before {
   background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -678px 0 /cover !important;
   content: "";
