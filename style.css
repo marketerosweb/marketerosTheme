@@ -77,7 +77,9 @@ footer{
     background: #130F0C;
     padding-bottom: 30px;
 }
-
+h4.modal-title{
+    color: #00719F;
+}
 .nav-pie{
     text-align: center;
 }
@@ -87,7 +89,7 @@ footer{
     margin: 24px auto 46px;
     padding: 0;
 }
-.main-nav-footer li{
+.main-nav-footer li{ 
     float:left;
     padding: 0px 0px;
     margin: 30px 0 0 0;
@@ -292,7 +294,7 @@ nav.menu-principal div.main-nav div.menu-menu-principal-container ul.menu li.btn
     font-size: 0.9em;
     font-weight: 500;
     color:#fff;
-    padding: 10px 25px;
+    padding: 10px 20px;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     -ms-transition: all 250ms ease;
@@ -677,7 +679,7 @@ nav.menu-principal div.main-nav div.menu-menu-principal-container ul.menu li.btn
     z-index: -2; 
 }
 .top-contact{
-    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/contacto-top.jpg) 50% 50% / cover no-repeat;  
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/fachada-mk.jpg) 50% 50% / cover no-repeat;  
     z-index: -2; 
 }
 .top-proyectos{
@@ -686,7 +688,7 @@ nav.menu-principal div.main-nav div.menu-menu-principal-container ul.menu li.btn
 }
 
 .top-nosotros{
-    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/quienes-somos.jpg) 50% 50% / cover no-repeat;  
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/Marketeros-web.jpg) 50% 50% / cover no-repeat;  
     z-index: -2; 
 }
 
@@ -1837,6 +1839,7 @@ div.text-line-home{
     font-size:0.9em;
     font-weight: 500;
     margin: 5px 0;
+    text-transform: uppercase;
 }
 .testimonios-home ul#carrusel-testimonio li span.test-emp{
     color:#0F4564;
@@ -1943,6 +1946,16 @@ h3.titulo-prensa{
 .img-medios{
     padding-top:50px;
     text-align: center;
+}
+.fondo-azul .btn-primary{
+    background: transparent; 
+    border:none;
+}
+.fondo-azul .btn-primary:hover, .fondo-azul .btn-primary:link, .fondo-azul .btn-primary:visited,  .fondo-azul .btn-primary:active, .fondo-azul .btn-primary:focus{
+    border: none;
+    background: transparent; 
+    outline: none;
+    box-shadow: none;
 }
 /*============= FIN PRENSA ============*/
 
@@ -2576,6 +2589,7 @@ span.btn-plus-web.collapsed::before{
     margin-bottom:60px;
 }
 .pasoImg img{
+    margin-top: 90px;
     width: 100%;
 }
 /*============================ TABS ===============================*/
@@ -3090,9 +3104,9 @@ span.seo-txt-3{
     left: -30px;
 }
 .estra-seo{
-    background: #019bb5 url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/estrategia-seo.png) center right no-repeat;
+    background: #019bb5 url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/posicionamiento-en-buscadores-1.png) center right no-repeat;
     padding: 90px 0 120px 0;
-    overflow: hidden;
+    overflow: hidden; 
 }
 .caja-blanca{
     background: #fff;
@@ -3149,6 +3163,211 @@ span.seo-txt-3{
 }
 .proceso p{
     font-size: 1.094em; 
+}
+.tabs-seo ul.nav-tabs>li{
+    float:none;
+} 
+.tabs-seo ul.nav-tabs{
+    float: right;
+    text-align: center;
+    width: 15%;
+}
+.tabs-seo ul.nav-tabs>li a{
+    border-radius: 0;
+    border:1px solid #dbdbdb;
+    padding: 15px;
+    color:#333333;
+} 
+.tabs-seo ul.nav-tabs>li.active a{
+    background: #8fa02a;
+    color: #fff;
+    border-radius: 0;
+}
+.tabs-seo ul.nav-tabs>li a:hover{
+    background: #788624;
+    color:#fff;
+}
+.tabs-seo div.tab-content{
+    width: 85%;
+    float: left; 
+}
+.tabs-seo div.tab-content h3, .tabs-seo div.tab-content span{
+    font-size: 24px;
+    color: #6f771e;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.tabs-seo div.tab-content p{
+    text-align: right;
+    font-size: 1.125em;
+    line-height: 1.625em;
+}
+.proceso .parallax-window{
+    min-height: 200px;
+    position: relative;
+}
+.proceso .tabs-seo div.tab-content h3{
+    padding: 0;
+}
+.proceso .tabs-seo div.tab-content .info-tab-2{
+   float: left;
+    padding: 28px 28px 0 28px;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    margin-right: 15%;
+    height: 100%;
+}
+
+.proceso .tabs-seo div.tab-content .seo-asesoria{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/Asesoria-e-investigacion.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.proceso .tabs-seo div.tab-content .seo-optimizacion{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/optimizacion-web.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.proceso .tabs-seo div.tab-content .seo-creacion{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/creacion-y-optimizacion-de-contenido.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.proceso .tabs-seo div.tab-content .seo-analisis{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/analisis-y-mantenimiento.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.proceso .tabs-seo div.tab-content .seo-incremento{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/incremento-de-trafico.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.proceso .tabs-seo div.tab-content .seo-identificacion{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/identificacion-de-palabras-clave.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+}
+.ppc-content h4{
+    font-size: 1.427em; 
+    margin: 0 0 23px 0;
+}
+.ppc-content p{
+    font-size: 1.05em;
+    line-height: 1.375em;
+    font-weight: 300;
+}
+.ppc-content{
+    margin-bottom: 60px;
+    margin-left: 160px;
+}
+.seo-cent{
+    margin-left: 220px;
+}
+.ppc-contents{
+    padding: 60px 0;
+}
+.ppc-contents::before{
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/seo-line.png);
+    content: "";
+    background-position: 0px 0px;
+    width: 97px;
+    height: 528px;
+    top: 75px;
+    left: 50px;
+}
+.ppc-1::before{
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/pago-por-click-ppc.png);
+    content: "";
+    background-position: 0px 0px;
+    width: 120px;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+}
+.ppc-2::before{
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/pago-por-click-ppc.png);
+    content: "";
+    background-position: -120px 0px;
+    width: 120px;
+    height: 120px;
+    top: 182px;
+    left: 70px;
+}
+.ppc-3::before{
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/pago-por-click-ppc.png);
+    content: "";
+    background-position: -240px 0px;
+    width: 120px;
+    height: 120px;
+    top: 364px;
+    left: 70px;
+}
+.ppc-4::before{
+    position: absolute;
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/pago-por-click-ppc.png);
+    content: "";
+    background-position: -360px 0px;
+    width: 120px;
+    height: 120px;
+    top: 546px;
+    left: 0px;
+}
+.sem-bola{
+    background: #e4993b;
+    position: absolute;
+    width: 740px;
+    height: 740px;
+    border-radius: 50%;
+    left: -460px;
+    top: -50px;
+}
+.sem-bola::before{
+    content: "";
+    position: absolute;
+    width: 740px;
+    height: 740px;
+    border-radius: 50%;
+    left: 30px;
+    top: 10px;
+    border: 5px solid #e0801e;
+}
+.sem-bola p{
+    color: #fff;
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-top: 40%;
+    padding-right: 5%;
 }
 /*=====================================================================================
 ================================== APPS ===============================================
@@ -3819,20 +4038,52 @@ a.text-title{
     -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
     box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
 }
-.page-id-280 .mouse-scroll{
+.page-id-280 .mouse-scroll, .single-post .mouse-scroll, .archive.author .mouse-scroll{
     display: none;
 }
-.page-id-280 .menu-principal ul li a{
+.page-id-280 .menu-principal ul li a, .single-post .menu-principal ul li a, .blog .menu-principal ul li a, .archive.author .menu-principal ul li a{
     color: rgb(15, 69, 100);
 }
-.page-id-280 .container-mk::before{
+.page-id-280 .container-mk::before, .single-post .container-mk::before, .blog .container-mk::before, .archive.author .container-mk::before{
     border-bottom: 1px solid rgba(15, 69, 100,.2);
 }
-.page-id-280 .menu-principal ul li.btn-home a::before{
+.page-id-280 .menu-principal ul li.btn-home a::before, .single-post .menu-principal ul li.btn-home a::before, .blog .menu-principal ul li.btn-home a::before, .archive.author .menu-principal ul li.btn-home a::before{
     background-position: -3180px -5px;
 }
-.page-id-280 .logo-top{ 
+.page-id-280 .logo-top, .single-post .logo-top, .blog .logo-top, .archive.author .logo-top{ 
     content:url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/Logo-marketerosweb-blue.png");
+}
+.single-post .blog, .blog .blogmk-front, .archive.author .pagina-author{
+    padding-top: 240px;
+    display: block;
+    padding-bottom: 120px;
+}
+.single-post .blog .cabecera-blog h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.813em;
+    padding-bottom: 80px;
+}
+.single-post .blog p{
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+a span.textos-proyects{
+    color:#333;
+    text-align: center;
+    font-size:0.8em;
+    margin-top: 8px;
+    background: #e2e2e2;
+    display: block;
+    margin: 0;
+    padding: 20px 0;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    line-height: 1.6em;
+} 
+.p-rel{ 
+    text-align: center;
 }
 /*=======================================================================================
 ============================== DISEÑO GRAFICO ===========================================
@@ -3900,6 +4151,109 @@ a.text-title{
     color: #fff;
     font-weight: 500;
 }
+h2.h2-dg-mi, h2.h2-dg-cp, h2.h2-dg-br, h2.h2-dg-pc, h2.h2-dg-fm, h2.h2-dg-fc, h2.h2-dg-fp, h2.h2-dg-fa, h2.h2-dg-ge, h2.h2-dg-ani{
+    position:relative;
+}
+h2.h2-dg-mi::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4500px 0px;
+    top:-20px;
+    left:-60px;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-cp::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4620px 0px;
+    top:-20px;
+    left:-60px;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-br::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4440px 0px;
+    top:-20px;
+    left:100%;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-pc::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4560px 0px;
+    top:-20px;
+    left:100%;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-fm::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4800px 0px;
+    top:-20px;
+    left:100%;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-fc::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4860px 0px;
+    top:-20px;
+    left:100%;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-fp::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4740px 0px;
+    top:-20px;
+    left:-60px;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-fa::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4680px 0px;
+    top:-20px;
+    left:-60px;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-ge::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4920px 0px;
+    top:-20px;
+    left:100%;
+    width: 60px;
+    height: 60px;
+}
+h2.h2-dg-ani::before{
+    position:absolute;
+    content:"";
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
+    background-position: -4980px 0px;
+    top:-20px;
+    left:-60px;
+    width: 60px;
+    height: 60px;
+}
 /*====================================================================================
 =============================== QUIENES SOMOS ========================================
 ====================================================================================*/
@@ -3907,6 +4261,7 @@ a.text-title{
     padding-top: 50px;
     padding-bottom: 70px;
 }
+
 .caracteristicas-mk h3{
     font-size: 1.250em;
     font-weight: 400;
@@ -3925,6 +4280,28 @@ a.text-title{
     margin: 18px 0 40px 0;
 }
 
+.caracteristicas-mkl h3{
+    font-size: 1.250em;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    text-align: right;
+}
+.caracteristicas-mkl h3::before{
+    position: absolute;
+    content: "";
+    top:32px;
+    width: 94px;
+    height: 1px;
+    left: 100%;
+    margin-left: -94px;
+    border-top:1px dashed #4d4d4d;
+}
+.caracteristicas-mkl p{
+    margin: 18px 0 40px 0;
+    text-align: right;
+}
+
 h3.comp{
     position: relative;
 }
@@ -3934,7 +4311,7 @@ h3.comp::after  {
     background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
     background-position: -4140px 0px;
     top:-20px;
-    left:-60px;
+    left:100%;
     width: 60px;
     height: 60px;
 }
@@ -3944,7 +4321,7 @@ h3.exp::after  {
     background: url(http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png);
     background-position: -4203px 0px;
     top:-20px;
-    left:-60px;
+    left:100%;
     width: 60px;
     height: 60px;
 }
@@ -4000,6 +4377,26 @@ h3.resp::after  {
     -o-transition: all 700ms ease;
     transition: all 700ms ease;
 }
+.eliacin{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/Eliacin-serna.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eliacin:hover{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/Eliacin-serna-hover.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.tomas-clavijo{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/tomas-clavijo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tomas-clavijo:hover{
+    background: url(http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/tomas-clavijo-hover.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
 span.nombre-mk{
     display: block;
     text-align: center;
@@ -4025,6 +4422,102 @@ span.cargo-mk, span.mail-mk{
 }
 .fotos-mk{
     padding-top: 70px;
+}
+.cont-mk-qs{
+     padding-bottom: 60px;
+}
+.cont-mk-qs p, .cont-mk-qs h3{
+    text-align: center;
+   
+}
+/*================================ blog =========================================*/
+.imagen-destacada{
+    text-align:center;
+}
+.imagen-destacada img{
+    margin:0 auto 60px auto;
+}
+h2.h2-blog{
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+    padding:0 20px;
+    text-transform: uppercase;
+}
+article.portada-articulos{
+    padding: 0;
+    border-radius:4px;
+    border:1px solid #c6c6c6;
+    margin-bottom: 30px; 
+}
+.article.portada-articulos h2.h2-blog{
+    padding: 20px;
+}
+.imagen-destacada-front{
+    max-height: 110px;
+    overflow: hidden; 
+}
+.imagen-destacada-front img{
+    width: 100%;
+    height: auto;
+}
+.cabecera-blog-front{
+    min-height: 74px;
+    max-height: 74px;
+}
+.fecha-autor{
+    font-size: 11px;
+    display: block;
+    border-top:1px solid rgba(15, 69, 100,.2);
+    border-bottom: 1px solid rgba(15, 69, 100,.2);    
+    padding: 10px 0;
+    margin: 0 20px 20px 20px;
+}
+.fecha-autor .autor-mk address{
+    margin-bottom: 0;
+}
+.fecha-mk{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 0 0 0 0px;
+}
+.autor-mk{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 0 0px 0 0;
+}
+.txt-intro{
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    min-height: 140px;
+}
+.leer-mas{
+    display: block;
+    margin: 20px auto 20px auto;
+    background: #047cbe;
+    color: #fff; 
+    width: 120px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center; 
+}
+.leer-mas:hover{
+    background: #036CA5;
+    color: #fff; 
+}
+/*=============== autor =============*/
+.imagen-art-autor{
+    float: left;
+    width: 40%;
+}
+.imagen-art-autor img{
+    height: auto;
+    width: 100%;
 }
 /*===================================================================================
 ==============================RESPONSIVE ============================================

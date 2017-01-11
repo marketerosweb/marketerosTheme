@@ -1,0 +1,213 @@
+@media (min-width: 320px) and (max-width: 780px) {
+
+.home-pie.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.page-item-5.current_page_item.menu-item-107 {
+  display: none !important;
+
+}
+header {
+  top: 59px !important;
+}
+.menu {
+  display: flex !important;
+}
+
+.mouse-scroll {
+	display: none;
+}
+.main-nav{
+	display: none;
+}
+
+.red-top {
+  left: 0;
+  position: fixed;
+  top: 90%;
+  width: 100%;
+}
+.red-top > li {
+  display: inline-flex;
+  width: 50%;
+}
+.red-top > li:nth-child(3){
+	display: none;
+}
+.slogan h3 {
+  font-size: 2em !important;
+  padding-top: 82% !important;
+}
+.widgets-top-tels ul li a {
+  font-size: 0.8em !important;
+}
+.top-bar ul li:nth-child(2){
+	border-right: none !important; 
+}
+.parallax-window h3{
+	padding-right: 4% !important;
+	text-align: center !important;
+}
+.parallax-window h3 span{
+	font-size: 1.0em !important;
+}
+.text-line-home h4.res::before{
+	left: 34px !important;
+	top: -17px;
+}
+.text-line-home h4.res::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -678px 0 /cover !important;
+  content: "";
+  height: 40px !important;
+  left: 42px !important;
+  position: absolute;
+  top: -7px !important;
+  width: 40px !important;
+}
+.text-line-home h4.exp::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -757px 0 / cover  !important;
+  content: "";
+  height: 40px !important;
+  left: 34px !important;
+  position: absolute;
+  top: -5px !important;
+  width: 40px !important;
+}
+.text-line-home h4.sop::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -841px 0 / cover  !important;
+  content: "";
+  height: 40px !important;
+  left: 60px !important;
+  position: absolute;
+  top: -6px !important;
+  width: 40px !important;
+}
+.text-line-home h4.gar::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -641px 0 / cover  !important;
+  content: "";
+  height: 40px !important;
+  left: 52px !important;
+  position: absolute;
+  top: -9px;
+  width: 40px !important;
+}
+.text-line-home h4.com::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -725px 0 / cover  !important;
+  content: "";
+  height: 40px !important;
+  left: 33px !important;
+  position: absolute;
+  top: -3px !important;
+  width: 40px !important;
+}
+.text-line-home h4.ase::before {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/themes/Marketeros-Theme/images/icons-mk.png") repeat scroll -802px 0 / cover  !important;
+  content: "";
+  height: 40px !important;
+  left: 60px !important;
+  position: absolute;
+  top: -7px !important;
+  width: 40px !important;
+}
+.testimonios-home {
+  padding: 0px 0 0px !important;
+}
+.contactenos {
+  display: none;
+}
+.btn-proy-web.wow.fadeIn.animated {
+  display: none;
+}
+.slide-web {
+  background: #000 none repeat scroll 0 0;
+  height: 243px;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+.bg-slide-web {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/web-img.png") no-repeat scroll center top;
+  box-sizing: border-box;
+  height: 430px;
+  margin-top: 40px;
+  padding-top: 40px;
+  position: absolute;
+  top: -118px;
+  width: 100% !important;
+  z-index: 100;
+}
+.bg-slide-seo {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/12/bg-seo-home.png") no-repeat scroll center top;
+  box-sizing: border-box;
+  height: 220px;
+  margin-left: -13px !important;
+  margin-top: 210px;
+  padding-left: 3px;
+  padding-top: 11px;
+  position: absolute;
+  width: 100%;
+  z-index: 110;
+}
+.titulares h3 {
+  color: #333;
+  font-size: 1.7em !important;
+  font-weight: 300;
+}
+.slide-web {
+  background: #000 none repeat scroll 0 0;
+  height: 159px !important;
+  margin: 0 auto;
+  width: 87% !important;
+}
+.bg-slide-web {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/web-img.png") no-repeat scroll center top / cover  !important;
+  box-sizing: border-box;
+  height: 280px !important;
+  margin-top: 40px;
+  padding-top: 26px !important;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  left: -3px;
+}
+a.btn-proy-seo::before{
+  display: none;
+}
+.bg-slide-seo {
+
+  margin-top: 192px !important;
+}
+.slide-redes {
+  background: #000 none repeat scroll 0 0;
+  height: 258px;
+  margin: 0 auto;
+  width: 100% !important;
+}
+.btn-proy-red.wow.fadeIn.animated {
+  display: none;
+}
+.btn-proy-apps.wow.fadeIn.animated {
+  display: none;
+}
+.bg-slide-redes {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/redes-img.png") no-repeat scroll center top;
+  box-sizing: border-box;
+  height: 366px !important;
+  margin-left: -34px;
+  margin-top: 60px;
+  padding-top: 88px;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.slide-apps {
+  background: rgba(0, 0, 0, 0) url("http://marketerosweb.website/marketeros-web/site/wp-content/uploads/2016/11/apps-img.png") no-repeat scroll center top;
+  box-sizing: border-box;
+  height: 400px !important;
+  margin-left: 66% !important;
+  margin-top: -115px !important;
+  padding-top: 54px;
+  position: absolute;
+  width: 80% !important;
+  z-index: 100;
+}
+.red-top-fixed{
+background: #00446a none repeat scroll 0 0}
+}

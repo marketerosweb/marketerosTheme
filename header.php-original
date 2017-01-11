@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="<?php bloginfo('language'); ?>">
+  <head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo('name'); ?></title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/css/slicknav.css">
+    <link rel="stylesheet" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/css/animate.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
+        <!-- Mobile Stuff -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="CHANGE-ME">
+        <!-- Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="CHANGE-ME">       
+        <!-- Windows 8 -->
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+      <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_76x76.png"> 
+<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_152x152.png">
+<link rel="icon" type="image/png" sizes="196x196" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_196x196.png">
+<link rel="icon" type="image/png" sizes="160x160" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_160x160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_96x96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon_16x16.png"> 
+<link rel="shortcut icon" href="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/images/favicon/favicon.ico" />
+<!--/Favicon -->
+    <?php wp_head(); ?>
+  </head>
+  <body <?php body_class(); ?> >
+    
+      
+    <header>
+    <div class="top-bar">
+        <div class="col-sm-4">
+        <?php wp_nav_menu( array( 'theme_location' => 'top_menu' ) ); ?>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-5">
+             <?php dynamic_sidebar('Telefonos-Top'); ?>
+        </div>
+    </div>
+    <div class="container container-mk">
+
+        <div class="row head-mk">
+            <div class="col-sm-4"></div>
+        <div class="col-sm-4 logo-mk wow fadeIn">    
+            <a href="<?php echo get_site_url(); ?>" title="Marketerosweb Colombia"><img class="alignnone size-full wp-image-32 logo-top" src="<?php echo get_site_url(); ?>/wp-content/uploads/2016/10/Logo-marketerosweb.png" alt="logo-marketerosweb" width="254" height="79" /> </a>
+        </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row head-mk">
+            <div class="col-sm-1"></div>
+        <div class="col-sm-10 menu-mk wow fadeIn">    
+            <nav class="menu-principal">
+              <div class="main-nav">
+                 <?php wp_nav_menu( array( 'theme_location' => 'navegation' ) ); ?>
+            </div>
+            </nav>
+        </div> 
+            <div class="col-sm-1"></div>
+    </div>
+
+        </div>
+    </div>
+    </header>
+      

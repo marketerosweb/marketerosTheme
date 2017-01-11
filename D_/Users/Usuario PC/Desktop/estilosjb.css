@@ -1,0 +1,978 @@
+
+
+/*------------------HEADER ---------------*/
+
+.fusion-is-sticky .fusion-logo img { width: 50% !important; height: auto !important;}
+
+.fusion-is-sticky .fusion-main-menu > ul > li > a {height: 56px !important; line-height: 56px !important;}
+
+.fusion-contact-info {float: right;}
+
+.menu-top {list-style: none; margin-top: 0;}
+
+.menu-top li{float:left; padding: 5px 25px; border-right: solid 1px #ccc; font-weight: 600;}
+
+.fusion-secondary-header {border-top: transparent !important;}
+
+.fusion-secondary-header {border-bottom-color: transparent;}
+
+.menu-top li:first-child:after {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f095";
+    float: left;
+    margin-right: 15px;
+    color: #00447c;
+}
+
+.menu-top li:nth-child(2):after {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f0e0";
+    float: left;
+    margin-right: 15px;
+    color: #00447c;
+}
+
+.menu-top li:nth-child(3):after {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f007";
+    float: left;
+    margin-right: 15px;
+    color: #00447c;
+}
+
+.menu-top li:nth-child(4):after {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f00c";
+    float: left;
+    margin-right: 15px;
+    color: #00447c;
+}
+
+
+.fusion-logo {position: absolute; top: -60px;}
+
+.fusion-logo:after {
+    content: "Tu opción para estudiar en línea";
+    color: #666666;
+    font-size: 21px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+.fusion-main-menu:before {
+    content: url('http://udelprado.mx/wp-content/uploads/2016/11/text-header.png');
+    top:10px;
+    position: absolute;
+    right: 0;
+}
+
+.fusion-main-menu > ul > li {padding-right: 30px;}
+
+.fusion-main-menu > ul > li > a {
+    border-color: transparent !important;
+    margin-top: 20px;
+    height: 70px !important;
+    line-height: 75px !important;
+}  
+
+.fusion-social-networks.boxed-icons .fusion-social-network-icon {margin: 0 15px 10px;}
+
+.fusion-secondary-header .fusion-row .fusion-alignleft {width: 85%;}
+
+.fusion-header {max-height: 100px;}
+
+.fusion-header-wrapper .fusion-header {border-bottom: solid 4px #00703c;}
+
+#sliders-container {margin-top: -1px;}
+
+.text-slide {text-shadow: 2px 0 2px rgba(0,0,0,0.7);}
+
+.hephaistos.tparrows {border-radius: 50% !important;}
+
+.hermes .tp-bullet {
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: none !important;
+}
+
+
+.fusion-header.fusion-sticky-shadow  .fusion-main-menu:before, .fusion-header.fusion-sticky-shadow .fusion-logo:after {
+    display: none;
+}
+
+.fusion-header.fusion-sticky-shadow .fusion-logo{
+    top: 0;
+}
+
+
+.fusion-header.fusion-sticky-shadow .fusion-main-menu > ul > li > a {
+    margin-top: 0px;
+    height: 90px;
+}
+
+.fusion-header.fusion-sticky-shadow .fusion-logo{
+    margin-top: 10px;
+}
+
+.fusion-is-sticky .fusion-main-menu > ul > li > a {
+    font-size: 16px;
+    color: #00703c;
+}
+
+.column-form {}
+
+.formulario-inicio {
+    margin-top: -606px;
+    background: url("http://udelprado.mx/wp-content/uploads/2016/12/bg-form.png") no-repeat top center;
+    min-height: 580px;
+    min-width: 280px !important;
+    max-width: 295px !important;
+    padding: 0 5% 10px;
+    background-size: 100% 100%; 
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+
+.formulario-inicio .wpcf7-form .wpcf7-response-output {
+    background-position: top center;
+}
+
+
+input::-moz-placeholder { color: #ccc !important; opacity: 1 !important;}
+
+.formulario-inicio p:first-child {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.formulario-inicio textarea.wpcf7-form-control.wpcf7-textarea{
+    height: 80px !important;
+}
+
+
+.formulario-inicio input[type="text"], .formulario-inicio input[type="email"], .formulario-inicio select, .formulario-inicio textarea {
+    font-size: 14px !important;
+    padding: 10px 13px !important;
+    margin: -4px 0px;
+    height: auto !important; 
+    max-width: 235px;
+}
+
+.formulario-inicio p:nth-child(8) {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+.formulario-inicio p:nth-child(9) {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.formulario-inicio p:nth-child(9) .wpcf7-form input[type="submit"], .formulario-inicio p:nth-child(9) .wpcf7-submit {
+    background: #aa9f4e;
+    box-shadow: 4px 3px 3px #6d642e;
+    padding: 16px 62px !important;
+    font-size: 24px !important;
+    text-transform: capitalize;
+}
+
+span.wpcf7-not-valid-tip {color: #d6ff00;}
+
+.formulario-inicio a {color: #fff !important;} 
+
+
+
+.tp-parallax-wrap:first-of-type {
+    top: 0 !important;
+    z-index: 99999999 !important;
+}
+
+ .formulario-inicio input[type="checkbox"] {
+    padding: 0 !important;
+     
+     /*
+    margin: 5px 0 0 10px;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance:none;
+     background: #fff;
+     border: solid 1px #ccc;
+     border-radius: 0;
+*/
+}
+    
+    
+
+
+
+
+/*--------------SECTION 2 -------*/
+
+
+.servicios h1 {
+    font-size: 17px;
+    color: white;
+    margin: 0 6px;
+    border: solid 3px #fff;
+    padding: 3px 7px !important;
+    position: relative;
+}
+
+.icon-servicios {
+    position: absolute;
+    right: 21px;
+    bottom: 70px;
+}
+
+.rvoe {
+    text-align: right;
+    margin: 0 10px;
+    padding: 3px 10px !important;
+    color: #fff;
+    font-size: 10px;
+}
+
+
+
+/*--------------SECTION 3 -------*/
+
+
+/*--------------SECTION 4 -------*/
+
+
+.meta .fusion-date, .post-content blockquote, .review blockquote q {font-style: normal;}
+
+.fusion-testimonials.classic blockquote q {position: relative; padding: 0 25px; line-height: 20px;}
+
+.fusion-testimonials.classic blockquote {background-color: rgba(255,255,255,0)!important;}
+
+.post-content blockquote:before{
+   font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f10d";
+    margin-right: 15px;
+    color: #00447c;
+}
+
+.post-content blockquote:after {
+    font-size: 16px;
+    font-family: "FontAwesome";
+    content: "\f10e";
+    color: #00447c;
+    position: absolute;
+    right: 62%;
+}
+
+
+.fusion-testimonials.classic .testimonial-thumbnail {display: table;}
+
+.fusion-testimonials.classic .testimonial-image {max-width: 100%; margin-bottom: 25px;}
+
+.company-name {color: #808080; font-style: italic; font-size: 13px; padding-left: 15px;}
+
+.fusion-accordian .panel-title .fusion-toggle-icon-wrapper {
+    float: right;
+}
+
+.fusion-accordian .panel-title .fusion-toggle-heading {
+    margin-left: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Raleway';
+}
+
+.panel-body.toggle-content {
+    margin: 0 20px;
+    font-family: 'Raleway';
+}
+
+
+.fusion-panel.panel-default .active {
+    color: #00447c !important;
+}
+
+.fusion-accordian .panel-title a .fa-fusion-box:before {
+    color: #00447c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.fusion-accordian .panel-title .active .fa-fusion-box, .fusion-accordian .panel-title a .fa-fusion-box {
+    background-color: transparent !important;
+}
+
+.fusion-accordian .panel-title .active .fa-fusion-box {
+    border: solid 1px #00447c;
+}
+
+.fusion-panel.panel-default {
+    border: solid 1px #ccc;
+    margin: 15px 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+.fusion-accordian .panel-title a {
+    padding: 0;
+}
+
+.fusion-accordian .panel-title a:hover {
+    color: #00447c;
+}
+
+.porque-escogernos .panel-title a:hover .fa-fusion-box {
+    background: #fff !important;
+    border-color: #00447c !important;
+}
+
+
+
+/*----------------------FOOTER--------------*/
+
+#toTop:hover {
+    background-color: #00447c !important;
+}
+
+.fusion-footer-widget-area .widget-title, .fusion-footer-widget-area h3 {
+    margin: 0 0 13px; 
+    color: #fff;
+    text-transform: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: solid 2px #00703c;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.widget-01 {
+    position: relative;
+    padding: 0 5px 8px 22px;
+}
+
+.widget-01:before{
+    content: "\f041";
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:0;
+    font-size: 26px;
+}
+
+.widget-02 {position: relative;}
+
+.widget-02 li {padding: 10px 0 10px 27px;}
+
+.widget-02 li:first-child:before {
+    content: "\f095";
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:7px;
+    font-size: 20px;
+}
+
+.widget-02 li:last-child:before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    bottom: 6px;
+    font-size: 20px;
+}
+
+.widget-03 { position: relative;}
+
+.widget-03 li {padding: 4px 0 4px 21px;}
+
+.widget-03 li:first-child:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    left: -10px;
+    position: absolute;
+    top: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00447c;
+    background-color: #fff;
+    padding: 0 5px;
+    border-radius: 100%;
+}
+
+.widget-03 li:nth-child(2):before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    left: -10px;
+    position: absolute;
+    top: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00447c;
+    background-color: #fff;
+    padding: 0px 7px;
+    border-radius: 58%;
+}
+
+.widget-03 li:last-child:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    left: -10px;
+    position: absolute;
+    bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00447c;
+    background-color: #fff;
+    padding: 0 5px;
+    border-radius: 100%;
+}
+
+.widget-04 {position: relative;}
+
+.fusion-footer-widget-area:before {
+    content: "";
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+
+.widget-04 li:first-child {
+    width: 40%; 
+    float: left;
+    font-size: 18px;
+    color: #808080;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
+.widget-04 li:last-child {
+    width: 60%; 
+    float: left; 
+    text-align: right;
+    font-size: 18px;
+    color: #808080;
+    font-weight: bold;
+    padding-bottom: 9px;
+    position: relative;
+}
+
+.widget-04 li:last-child:before {
+    content: url(http://udelprado.mx/wp-content/uploads/2016/12/icon-medallon.png);
+    left: 185px;
+    top: -3px;
+    position: absolute;
+}
+
+
+footer .col-lg-3 {
+    width: 33%;
+}
+
+footer .fusion-column-last {
+    width: 100%;
+}
+
+.fusion-footer-widget-area {
+    padding-bottom: 0px;
+}
+
+footer .col-lg-3:first-child {
+    padding: 0 150px 0 15px;
+}
+
+footer .col-lg-3:nth-child(2) {
+    padding: 0 86px 1px 90px;
+}
+
+footer .col-lg-3:nth-child(3) {
+    padding: 0 0 0 150px;
+}
+
+.fusion-page-title-bar .entry-title, .fusion-breadcrumbs, .fusion-breadcrumbs a {
+    color: #fff !important;
+    text-shadow: 2px 2px 6px rgba(0,0,0,.3);
+}
+
+
+.texto-quienes p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.texto-quienes h3 {color: #4d4d4d;font-size: 20px; font-weight: bold;}   
+
+.section-blue {
+    padding-top: 80px !important;
+    padding-bottom: 60px !important; 
+}
+
+.section-blue h2 {
+    color: #fff !important;
+    font-size: 22px !important;
+    text-shadow: 2px 2px 6px rgba(0,0,0,.3);
+}
+
+.section-blue h2 strong {font-size: 50px !important; text-transform: uppercase;}
+
+.vertical-tabs .tab-content .tab-pane table {width: 100%;}
+
+.vertical-tabs .tab-content .tab-pane table td {
+    padding: 20px 15px;
+    border: 1px solid #e1e1e1;
+    vertical-align: top;
+    transition: all .4s; 
+}
+
+.vertical-tabs .tab-content .tab-pane table td:hover {background: #f9f9f9;}
+
+.tab-content .tab-pane h3 {font-size: 23px; margin-bottom: 7px;}
+
+.tab-content .tab-pane h4 {font-size: 18px; font-weight: bold;}
+
+.tab-content .tab-pane ul li {position: relative; list-style: none; margin-bottom: 10px;}
+
+.tab-content .tab-pane ul li:before {
+    position: absolute;
+    content: url("http://udelprado.mx/wp-content/uploads/2016/12/vineta.png");
+    top: 1px;
+    left: -30px;
+}
+
+.tab-content .tab-pane em {color: #274679; font-size: 13px;}
+
+.tab-content .tab-pane hr {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: 1px solid #e3e3e3;
+}
+
+.event-is-recurring:hover, .tooltip-shortcode, a:hover {color: #00447C;}
+
+.round-img {border-radius: 100%;width: 20%;}
+
+.fusion-tabs.vertical-tabs .nav-tabs > li .tab-link {padding: 13px 10px;}
+
+.nav-tabs .active a {border-color: #00703C !important;}
+
+.section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper { padding: 50px 30px;}
+
+.section-col4-licenciaturas .fusion-layout-column {margin-bottom: 5px !important;}
+
+.section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper h3 {
+    color: #fff;
+    font-size: 19px !important;
+}
+
+.section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 17px;
+    margin-top: 0;
+    display: inline-block;
+    transition: all .3s;
+    font-weight: bold;
+}
+
+.section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper a:hover {background: #fff; color: #01274B;}
+
+.section-frase-bottom {
+    padding-bottom: 30px !important;
+    padding-top: 50px !important;
+}
+
+.section-frase-bottom h2 strong { font-size: 30px; text-transform: uppercase;}
+
+.horizontal-tabs .tab-pane, .horizontal-tabs ul.nav-tabs  {border: 0 !important;}
+
+/*.horizontal-tabs ul.nav-tabs {padding: 0 70px;}*/
+
+.horizontal-tabs ul.nav-tabs li a {border: 1px solid #fff !important; background: #00447C !important; }
+
+.horizontal-tabs ul.nav-tabs li.active a, .horizontal-tabs ul.nav-tabs li:hover a {background: #00703C !important;}
+
+.horizontal-tabs ul.nav-tabs li a h4 {color: #fff !important; font-size: 17px !important;}
+
+.tabs-programa table {width: 100%;}
+
+.tabs-programa table td {
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    padding: 20px 10px;
+    /*width: 33%;*/
+}
+
+.tabs-programa table tr:nth-child(3) td {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #00703C !important;
+}
+
+.tabs-programa table tr:nth-child(1) td {
+    border: 0;
+    font-size: 30px;
+    padding: 30px 0 0 0;
+    font-weight: bold;
+    background: #fff !important;
+} 
+
+.tabs-programa table tr:nth-child(3) td:first-child {border-radius: 10px 0 0 0;border: 0;}
+.tabs-programa table tr:nth-child(3) td:last-child {border-radius: 0 10px 0 0;border: 0;}
+
+.tabs-programa table tr:nth-child(2) td {
+    padding: 0 0 20px 0;
+    color: #00447C;
+    border: 0;
+    background: #fff !important;
+}
+
+.tabs-programa table tr:nth-child(odd) td {background: #EDEDED;}
+.tabs-programa table tr:nth-child(even) td {background: #F7F7F7;}
+
+.tabs-programa ol li {margin-bottom: 20px;}
+
+.section-green {
+    padding-bottom: 60px !important;
+    padding-top: 80px !important;
+}
+
+.section-green h2 {color: #fff !important; font-size: 20px !important;}
+
+.section-green h2 strong {font-size: 50px !important;}
+
+.home .boton-pago {display: none;}
+
+.boton-pago {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 78px;
+    background: url("http://udelprado.mx/wp-content/uploads/2016/12/bt-pago.png");
+    width: 226px;
+    height: 47px; 
+    z-index: 9999;
+}
+
+.fusion-tabs.vertical-tabs .tab-pane {
+    min-height: 310px !important;
+    min-width: 100%; 
+}
+
+#tab-ed0ebeb3410f19b76a1 a {
+    background: #00447C;
+    color: #fff;
+    padding: 15px 24px 14px 75px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+#tab-ed0ebeb3410f19b76a1 a:before {
+    position: absolute;
+    content: url("http://udelprado.mx/wp-content/uploads/2016/12/bt-campus.png");
+    bottom: -8px;
+    left: 4px;
+}
+
+#tab-ed0ebeb3410f19b76a1 a:hover,#tab-95d156c27a8b0979e64 a:hover {background: #00703C;}
+
+#tab-95d156c27a8b0979e64 a {
+    background: #00447C;
+    color: #fff;
+    padding: 15px 24px 14px 24px;
+    text-transform: uppercase;
+    margin-top: 10px 0;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.section-programas-home .fusion-layout-column h3 {
+    background: url("http://udelprado.mx/wp-content/uploads/2016/11/icon-servicios.png")no-repeat 95% 8px;
+    border: 3px solid #fff;
+    color: white;
+    font-size: 16px;
+    margin: 0 6px;
+    padding: 3px 7px !important;
+    position: absolute;
+    width: 95%; 
+    bottom: 52px;
+    left: 1px; 
+    z-index: 99;
+    pointer-events: none;
+    transition: all .3s;
+    
+}
+
+.section-programas-home .fusion-layout-column:hover h3 {
+    background: url("http://udelprado.mx/wp-content/uploads/2016/11/icon-servicios.png")no-repeat 95% 8px,rgba(0, 68, 124, 0.85);
+    color: #fff;
+}
+
+.section-programas-home .fusion-layout-column h4 {
+    color: #fff;
+    font-size: 10px;
+    margin: 0 10px;
+    text-align: right;
+    width: 92%;
+    bottom: 30px;
+    z-index: 99;
+    position: absolute;
+    pointer-events: none;
+}
+
+.col-contact table td {
+    padding: 5px 10px;
+}
+
+
+.col-contact input[type="text"], .col-contact input[type="email"], .col-contact select, .col-contact textarea {
+    font-size: 14px !important;
+    padding: 10px 13px !important;
+    height: auto !important; 
+}
+
+#tab-3489f30e364bdafe02e ol {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+    padding-left: 60px;
+}
+
+#tab-3489f30e364bdafe02e ol li {
+    counter-increment: step-counter;
+    position: relative;
+    margin-bottom: 20px;
+}
+ 
+#tab-3489f30e364bdafe02e ol li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #00447C;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+    position: absolute;
+    left: -35px;
+}
+
+.fusion-megamenu-title a {font-size: 16px;position: relative;transition: color .3s;padding-top: 14px;}
+
+.fusion-megamenu-title {text-align: center;padding-bottom: 0;padding-top: 20px;}
+
+.fusion-megamenu-icon {
+    font-size: 33px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -28px;
+}
+
+.fusion-megamenu {
+    background: rgb(255,255,255) !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.wpcf7-form .wpcf7-response-output {
+    float: right;
+    font-size: 10px;
+    max-width: 295px;
+    padding: 11px 25px;
+    margin-top: 0;
+}
+
+/*.fusion-megamenu-holder, .fusion-megamenu-wrapper {width: 1170px !important;}*/
+
+.col-contact .wpcf7-form p:first-child {
+    font-weight: bold !important;
+    font-size: 20px !important;  
+}
+
+.page-id-351 .fusion-li-item-content p {font-size: 15px;}
+
+.home .fusion-panel.panel-default {
+    margin: 5px 10px !important;
+    padding: 5px !important; 
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .section-col4-licenciaturas .fusion-layout-column .fusion-column-wrapper { padding: 20px 30px;}
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .fusion-logo:after {display: none;} 
+    .fusion-logo img {width: 75%;}
+    .fusion-logo {top: 0px;}
+    .fusion-header.fusion-sticky-shadow {height: auto !important;}
+    .fusion-main-menu > ul > li > a, .side-nav li a {font-size: 16px;}
+    .fusion-main-menu > ul > li {padding-right: 23px;}
+    .fusion-secondary-header .fusion-row .fusion-alignleft {width: auto;}
+    footer .col-lg-3:first-child {padding: 0 100px 0 15px;}
+    footer .col-lg-3:nth-child(3) {padding: 0 0 0 76px;}
+    .widget-04 li:last-child:before {left: 38px;}
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .fusion-header {height: auto !important; max-height: inherit;}
+    .fusion-main-menu {position: relative; float: none; display: inline-block; margin-left: 10%;}
+    .fusion-logo {position: relative; margin: 0 auto !important; margin-left: 30% !important; padding-top: 16px;}
+    .fusion-secondary-header .fusion-alignright>* {float: none;display: none;}
+    .menu-top li:nth-child(4) {border-right: transparent;}
+    .fusion-main-menu > ul > li {padding-right: 20px;}
+    .fusion-main-menu:before{text-align: center; left: 0;}
+    footer .col-lg-3:first-child {padding: 0 21px 0 15px;}
+    footer .col-lg-3:nth-child(2) {padding: 0 50px 1px 90px;}
+    footer .col-lg-3:nth-child(3) {padding: 0 0 0 75px;}
+    .fusion-footer-widget-area:before{bottom: 0;}
+    .widget-04 li:last-child:before {left: 45px;}
+    .widget-04 li:first-child {width: 30%; font-size: 16px;}
+    .widget-04 li:last-child {width: 70%; font-size: 16px;}
+    .fusion-megamenu-wrapper {left: -500px !important;}
+    
+}
+    
+
+@media only screen and (min-width: 800px) {
+    .fusion-header-wrapper {position: relative;}
+    .home-form .fusion-layout-column.fusion-one-fourth {width: 50% !important; margin-right: 0 !important; margin-bottom: -6px !important;} 
+    .formulario-inicio{min-width: 350px; max-width: 350px; float: right;}
+    .home-form .fusion-layout-column.fusion-three-fourth {width: 50% !important; margin-right: 0 !important;}
+}
+
+@media only screen and (max-width: 800px) {
+    .formulario-inicio {margin-top: -20px; margin-bottom: 0 !important;}
+    .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-text, .wpcf7-form textarea {width: 50% !important;}
+    footer .col-lg-3:nth-child(2) {padding: 0 0px 1px 77px;}
+    footer .col-lg-3:nth-child(3) {padding: 0 0 0 80px;} 
+    .widget-04 li:first-child, .widget-04 li:last-child  {width: 100%; text-align: center;}
+    .fusion-footer-widget-area:before {height: 75px;}
+    .widget-04 li:last-child:before {left: 14px; top: -6px;}
+    .fusion-contact-info {padding: 8px 0;} 
+    .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header {padding-top: 0px; padding-bottom: 5px;}
+    .fusion-mobile-menu-icons a {margin-top: 32px;}
+
+    #sliders-container .rev_slider_wrapper {width: 100% !important; height: 350px !important; max-height: 350px; }
+    .fullwidthbanner-container .fullwidthabanner{height: 350px !important;}
+    .text-slide {position: absolute !important; top: -137px !important;}
+    .tp-fullwidth-forcer {height: 350px !important;}
+    .rev_slider_wrapper .rev_slider .tp-leftarrow.tparrows, .rev_slider_wrapper .rev_slider .tp-rightarrow.tparrows {width: 30px !important; height: 30px !important;}
+    .rev_slider_wrapper .rev_slider .tp-leftarrow.tparrows:before, .rev_slider_wrapper .rev_slider .tp-rightarrow.tparrows:before {line-height: 34px; font-size: 17px;}
+    .btn-pagar{z-index: 9999999 !important;}
+    .formulario-inicio input[type="text"], .formulario-inicio input[type="email"], .formulario-inicio select, .formulario-inicio textarea {max-width: 100%;width: 100% !important;}
+    .formulario-inicio {max-width: 99% !important;background-size: 100% 100%; margin: 20px auto 0 !important;}
+    .section-programas-home .fusion-layout-column  {width: 48% !important; margin: 1% !important;}
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .menu-top li {padding: 5px 12px;}
+    .menu-top li:first-child:after, .menu-top li:nth-child(2):after,.menu-top li:nth-child(3):after, .menu-top li:nth-child(4):after {margin-right: 5px;}
+    .fusion-secondary-header .fusion-row .fusion-alignleft {width: 95%;}
+    footer .col-lg-3:first-child {padding: 0 30%; text-align: center;}
+    footer .col-lg-3:nth-child(2) {padding: 0 30% ;text-align: center;}
+    footer .col-lg-3:nth-child(3) {padding: 0 30%;text-align: center;}    
+}
+
+
+@media only screen and (max-device-width: 640px) and (min-device-width: 320px){
+     footer .fusion-column-last {margin: 0 !important;}    
+}   
+
+
+@media only screen and (max-width: 600px){
+    .menu-top li {float: left; width: 50%;}
+    .menu-top li:nth-child(2){border-right: transparent;}
+    .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-text, .wpcf7-form textarea {width: 100% !important;}
+    footer .col-lg-3:first-child {padding: 0 23%; text-align: center;}
+    footer .col-lg-3:nth-child(2) {padding: 0 23% ;text-align: center;}
+    footer .col-lg-3:nth-child(3) {padding: 0 23%;text-align: center;} 
+    .boton-pago {right: 8px;}
+    .fusion-separator {display: none !important;}
+    .section-blue h2 strong, .section-green h2 strong {font-size: 33px !important;line-height: 40px !important;}
+    .fusion-footer-copyright-area { padding-bottom: 45px;}
+    .vertical-tabs .tab-content .tab-pane table td {word-break: break-all;width: 100%;display: inline-block;}
+    .round-img {width: 50%;}
+    .section-blue, .section-green { padding-top: 63px !important; padding-bottom: 33px !important;}
+    .tabs-programa table td {width: 100%; display: inline-block;border-radius: 0 !important;}
+    
+}
+
+@media only screen and (max-width: 500px){
+    .text-slide {font-size: 29px !important; line-height: 35px !important;}
+    .fusion-mobile-menu-icons a {margin-top: -42px;}
+    .section-programas-home .fusion-layout-column  {width: 100% !important; margin: 1% 0 !important;}
+    .fusion-page-title-bar h1 {font-size: 26px;} 
+    #main {padding-top: 0;}
+    .col-contact table td {width: 100%; display: inline-block;}
+}
+
+@media only screen and (max-width: 500px) and (min-width: 400px){
+    .menu-top li {padding: 5px 8px; border-right: transparent; font-weight: 600; font-size: 14px; text-align: left;}
+    .menu-top li:nth-child(3){border-right: transparent;}
+    .menu-top li:first-child:after, .menu-top li:nth-child(2):after,  .menu-top li:nth-child(3):after, .menu-top li:nth-child(4):after {margin-right: 8px;}
+    .fusion-footer-widget-area:before {height: 118px;}
+    widget-04 li:last-child {font-size: 15px;}
+    .widget-04 li:first-child {font-size: 15px;}
+    .widget-04 li:last-child:before {left: -21px;top: -6px;}
+    
+        
+}
+
+
+@media only screen and (max-width: 400px){
+   .menu-top li:first-child:after, .menu-top li:nth-child(2):after,  .menu-top li:nth-child(3):after, .menu-top li:nth-child(4):after {margin-right: 10px;font-size: 12px;} 
+    .menu-top li {padding: 5px 3px; border-right: transparent; font-weight: 600; font-size: 12px; text-align: left;}
+    .menu-top li:nth-child(3){border-right: transparent;}
+    .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-text, .wpcf7-form textarea {width: 100% !important;}
+    widget-04 li:last-child {font-size: 15px;}
+    .widget-04 li:first-child {font-size: 15px;}
+    .widget-04 li:last-child:before {left: -21px;top: -6px;}
+    .fusion-footer-widget-area:before {height: 115px;}
+    footer .col-lg-3:first-child {padding: 0 10%; text-align: center;}
+    footer .col-lg-3:nth-child(2) {padding: 0 10% ;text-align: center;}
+    footer .col-lg-3:nth-child(3) {padding: 0 10%;text-align: center;} 
+    .widget-03 li,.widget-02 li, .widget-01 {text-align: left;}
+    .formulario-inicio {min-width: inherit !important;}
+    .horizontal-tabs .tab-pane {padding: 15px 0;} 
+}
+
+
+

@@ -34,13 +34,13 @@
 
 <a href="#" id="back-to-top" title="Subir"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
-    <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.min.js"  ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js" ></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" ></script>
+    <script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/modernizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/wow.min.js"></script>
+    <script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/bootstrap.min.js"></script>
 
 <!--Menu-->
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slicknav.js" ></script>
+<script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/jquery.slicknav.js"></script>
 <script type="text/javascript">
     new WOW().init();
 $(document).ready(function(){
@@ -52,10 +52,8 @@ $(document).ready(function(){
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
                 $('#back-to-top').addClass('show');
-                $('.red-top').addClass('red-top-fixed');
             } else {
                 $('#back-to-top').removeClass('show');
-                $('.red-top').removeClass('red-top-fixed');
             }
         };
     backToTop();
@@ -72,9 +70,8 @@ $(document).ready(function(){
     
 });
 </script>
-
 <!--Fin Menu-->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/parallax.js"></script>
+    <script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/parallax.js"></script>
 <!-- Estadisticas -->
 
 <script type="text/javascript">
@@ -82,7 +79,7 @@ $(document).ready(function(){
 		"use strict";
 		function count($this){
 		var current = parseInt($this.html(), 10);
-		current = current + 10; 	
+		current = current + 1; 	
 		$this.html(++current);
 			if(current > $this.data('count')){
 				$this.html($this.data('count'));
@@ -97,7 +94,7 @@ $(document).ready(function(){
 		});  
    })(jQuery);
    </script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexisel.js" ></script>
+<script type="text/javascript" src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/jquery.flexisel.js"></script>
 <script type="text/javascript">
 
 $(window).load(function() {
@@ -284,7 +281,7 @@ $(window).load(function() {
 
 <!-- Estadisticas -->
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.mixitup.min.js" ></script>
+<script src="<?php echo get_site_url(); ?>/wp-content/themes/Marketeros-Theme/js/jquery.mixitup.min.js"></script>
 <!--PORTAFOLIO -->
 
 <script type="text/javascript">
@@ -297,7 +294,7 @@ $(window).load(function() {
     			  filter: '.filter'	
     		  },
     		  load: {
-      		  filter: '.webs, .ecommerce, .seo, .redessp, .email, apps, .appsweb'  
+      		  filter: '.webs, .ecommerce, .seo, .redessp, .email'  
       		}     
 				});								
 			
@@ -308,8 +305,6 @@ $(window).load(function() {
 		filterList.init();
 	});	
 </script>
-
-
 
 
     <?php wp_footer(); ?>
